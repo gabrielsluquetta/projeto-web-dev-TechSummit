@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gabriel Luquetta-RM:569280</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anta&family=Orbitron:wght@400..900&family=Zen+Dots&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>TechSummit 2026</h1>
+    <h2>Sistema de Vendas</h2>
+    <section class="vendas">
+        <h3>Comprar Ingresso</h3>
+        <div class="ingressos">
+            <label>Nome</label>
+            <input type="text"id="nome">
+        </div>
+        <div class="ingressos">
+            <label>Ingressos</label>
+            <select id="tiposIngressos">
+                <option value="100">Ingresso Padrão</option>
+                <option value="150">Ingresso VIP</option>
+                <option value="50">Ingresso Estudante</option>
+            </select>
+        </div>
+        <button id="botaoCompra">Comprar</button>
+        <div id="Finalizar"></div>
+    </section>
+        <section class="vendas">
+            <h2>Auditoria de compras</h2>
+            <button id="botaoLista">Mostrar lista</button>
+
+            <div id="ListaCompras"></div>
+        </section>
+        <script src="script.js"></script>
+</body>
+</html>
