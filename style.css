@@ -52,7 +52,7 @@ button{
     margin-top: 20px;
     margin-bottom: 20px;
     color: #EAF2FF;
-    width: 10%;
+    width: 30%;
 }
 p {
     text-align: center;
@@ -67,12 +67,12 @@ p {
 #botaoCompra{
     font-family: 'Orbitron', sans-serif;
     border: 1px solid black;
-    height: 20px;
+    height: 25px;
 }
 #botaoLista{
     font-family: 'Orbitron', sans-serif;
     border: 1px solid black;
-    height: 20px;
+    height: 25px;
 }
 #tiposIngressos{
     font-family: 'Orbitron', sans-serif;
